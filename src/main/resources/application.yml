@@ -1,0 +1,10 @@
+spring:
+  elasticsearch:
+    rest:
+      uris: 192.168.25.137:9200
+      connection-timeout: 600s
+      read-timeout: 600s
+#      username: elastic
+#      password: 123456
+server:
+  port: 8888
